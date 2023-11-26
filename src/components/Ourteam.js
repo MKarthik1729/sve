@@ -1,8 +1,11 @@
 import React from 'react'
+import UnderConstructionPage from './UnderonstructionPage'
 
 function Ourteam() {
   return (
-    <div>Ourteam</div>
+    <div>
+      <UnderConstructionPage />
+    </div>
   )
 }
 

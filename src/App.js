@@ -6,6 +6,8 @@ import About from './components/About';
 import Machining from './components/Machining';
 import Ourteam from './components/Ourteam';
 import Contact from './components/Contact';
+import NotFoundPage from './components/NotFoundPage';
+import Footer from './components/Footer';
 function App() {
   return (
 
@@ -17,8 +19,10 @@ function App() {
           <Route path='/machining' element={<Machining />}/>
           <Route path='/our-team' element={<Ourteam />}/>
           <Route path='/contact-us' element={<Contact />}/>
+          <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
+        <Footer />
       </Router>
 
   );
