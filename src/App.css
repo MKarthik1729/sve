@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.b1{
+  background-image: url('../public/about-bg.jpg');
+}
+
+.b2{
+  background-image: url('../public/bg.jpg');
+}
+
+.b3{
+  background-image: url('../public/corevalue-bg.jpg');
+}
+
+.backgroundContainer {
+  background-size: cover;
+  background-position: center; /* Optional: Center the background image */
+  background-repeat: no-repeat;
+  width: 100vw; /* 100% of the viewport width */
+  height: 500px; 
+  /* Additional styles or adjustments as needed */
+}
