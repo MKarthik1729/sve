@@ -3,7 +3,7 @@ import '../App.css'
 function About() {
   return (
     <div>
-      <div className="b1 backgroundContainer con">
+      <div className="b2 backgroundContainer con">
       <div className="column">
         <div className="centered-text">
           {/* Content for the first column */}
@@ -18,7 +18,7 @@ function About() {
       </div>
     </div>
 
-    <div className="b2 backgroundContainer con">
+    <div className="b1 backgroundContainer con">
     <div className="column">
         <div className="centered-text">
           <h2 style={{fontWeight:"200",fontSize:"50px"}}>Why Us</h2>
@@ -40,9 +40,9 @@ function About() {
         </ul>
       </div>
     </div>
-    <div className="b3 backgroundContainer">
-      {/* Your content goes here */}
-    </div>
+    {/* <div className="b3 backgroundContainer">
+      {/* Your content goes here 
+    </div> */}
     </div>
   )
 }
