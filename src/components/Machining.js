@@ -4,7 +4,7 @@ import '../App.css'
 function Machining() {
   return (
     <div >
-      <div className="b1 backgroundContainer " style={{textAlign:"center",color:"aliceblue",padding:"7% 8%"}}>
+      <div className="b1 " style={{textAlign:"center",color:"aliceblue",padding:"7% 8%"}}>
       <h2>Machining</h2><br />
       <p style={{fontSize:'20px'}}>Team provides delightful buying experience by meeting and exceeding customer ‘s expectations.
         The company’s state-of-the-art facilities equipped with latest CNC manufacturing technologies to produce complex and intricate components machined out of castings, forgings, bar stock. We stay focused on adopting new technologies facilitating to expand horizon of machining competencies. Having been strategized to be one stop solution provider; positioned for High mix – low volume, low to critical tolerances, partnering in spike and dip, leveraging our supply chain partners to deliver best value to customers.
