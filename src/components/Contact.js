@@ -29,11 +29,12 @@ function Contact() {
       // width="30%" 
       height="450" 
       // style={{border:'0'}}
+      style={{padding:'15px 0'}}
       loading="lazy" 
       referrerpolicy="no-referrer-when-downgrade" />
       {/* <div className='column'>
         Query
-      </div> */}
+      </div> */}ṣ
       </div>
       </div>
   )
