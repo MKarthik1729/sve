@@ -64,10 +64,10 @@
   color: aliceblue;
 }
 
-.column {
-  /* flex: 1; */
-  padding: 20px;
-}
+/* .column {
+
+
+} */
 
 /* Common styles for both laptop and mobile */
 /* body {
@@ -92,6 +92,7 @@
   }
   .column{
     flex:1;
+    padding: 20px;
   }
   .about-icons{
     font-size: 2vw;
@@ -119,6 +120,10 @@
     /* text-align: center; */
     justify-content: center;
     gap: 3vw;
+  }
+
+  .pad{
+    padding:50px;
   }
 }
 
