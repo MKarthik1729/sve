@@ -16,19 +16,19 @@ function Contact() {
       <div className='contact'>
       <div>
         <h2>Contact us</h2>
-Sri Velu Enterprises<br />
-Contact Person : Gnanavel S.(Proprietor)<br /><br />
-N0.11/1,Chamundi Vihar, Lakshmipura Road, <br />
-Abbigere, Chikkabanavara Post, Bengaluru 5600090, <br />
-Karnataka, India<br /><br />
-Mobile : +91 9980066665<br />
-EMAIL ID : gnanavel@sriveluenterprises.com<br />
+      Sri Velu Enterprises<br />
+      Contact Person : Gnanavel S.(Proprietor)<br /><br />
+      N0.11/1,Chamundi Vihar, Lakshmipura Road, <br />
+      Abbigere, Chikkabanavara Post, Bengaluru 5600090, <br />
+      Karnataka, India<br /><br />
+      Mobile : +91 9980066665<br />
+      EMAIL ID : gnanavel@sriveluenterprises.com<br />
       </div>
       <iframe 
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.54306060589!2d77.5289043!3d13.0747205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae22c30d630cd9%3A0x70a2435e865285cc!2sSri%20Velu%20Enterprises!5e0!3m2!1sen!2sin!4v1703151248837!5m2!1sen!2sin" 
-      width="30%" 
+      // width="30%" 
       height="450" 
-      style={{border:'0'}}
+      // style={{border:'0'}}
       loading="lazy" 
       referrerpolicy="no-referrer-when-downgrade" />
       {/* <div className='column'>

@@ -85,6 +85,13 @@
 }
 /* Styles for laptops with a screen width of 768 pixels or more */
 @media only screen and (min-width: 768px) {
+  .contact{
+    padding: 4vh 0;
+    display:flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 3vw;
+  }
   /* Add your laptop-specific styles here */
   .con {
     /* font-size: 16px; */
@@ -114,13 +121,7 @@
     color: #431515;
     /* minWidth:"100px" */
   }
-  .contact{
-    padding: 4vh 0;
-    display:flex;
-    /* text-align: center; */
-    justify-content: center;
-    gap: 3vw;
-  }
+
 
   .pad{
     padding:50px;
@@ -135,6 +136,12 @@
     /* font-weight:500; */
     font-size: 18px;
     /* minWidth:"100px" */
+
+  }
+  .contact{
+    padding:15px 20%;
+    /* gap: 10px; */
+     /* text-align: center; */
   }
 }
 
