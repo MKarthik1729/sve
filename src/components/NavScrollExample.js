@@ -10,16 +10,16 @@ function NavScrollExample() {
     color : '#f37e00',
     margin: '0 30px',
     fontWeight: '600',
-    fontSize:'1.5vw'
+    fontSize:'20px'
   }
   const Gapsetting = { 
     margin: '0 30px',
     fontWeight: '600',
-    fontSize:'1.5vw',
+    fontSize:'20px',
     color:'rgb(61,59,0)'
    }
   return (
-    <Navbar expand="lg" style={{padding:"0",margin:"0",backgroundColor:"#fff"}} sticky='top' >
+    <Navbar expand="lg" style={{padding:"0 5%",margin:"0",backgroundColor:"#fff"}} sticky='top' >
       <Container fluid>
         <Navbar.Brand href="/" style={{height:"80px",overflow:"hidden",margin:"0",padding:"0"}} ><Logo /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
