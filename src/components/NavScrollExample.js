@@ -12,7 +12,7 @@ function NavScrollExample() {
   }
   const Gapsetting = { margin: '0 30px' }
   return (
-    <Navbar expand="lg" style={{padding:"0",margin:"0"}} >
+    <Navbar expand="lg" style={{padding:"0",margin:"0",backgroundColor:"#fff"}} sticky='top' >
       <Container fluid>
         <Navbar.Brand href="/" style={{height:"80px",overflow:"hidden",margin:"0",padding:"0"}} ><Logo /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,13 +24,10 @@ function NavScrollExample() {
             // navbarScroll
           >
             </Nav>
-{/* <Form className="d-flex"> */}
   <Nav.Link href="/" style={(param1==="/")?highlight:Gapsetting}>HOME</Nav.Link>
   <Nav.Link href="/about"  style={(param1==="/about")?highlight:Gapsetting}>ABOUT US</Nav.Link>
   <Nav.Link href="/machining" style={(param1==="/machining")?highlight:Gapsetting}>BUSINESS VERTICALS</Nav.Link>
-  {/* <Nav.Link href="/our-team" style={(param1==="/our-team")?highlight:Gapsetting}>TEAM SVE</Nav.Link> */}
   <Nav.Link href="/contact-us" style={(param1==="/contact-us")?highlight:Gapsetting}>CONTACT US</Nav.Link>
-{/* </Form> */}
 
 
         </Navbar.Collapse>

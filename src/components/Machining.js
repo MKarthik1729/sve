@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+// import { Outlet } from 'react-router-dom'
 
 function Machining() {
   return (
@@ -18,6 +19,7 @@ Having been located miles away, Customers just “Don’t need parts but a partn
 </p><p style={{fontSize:'20px'}}>
 Every individual in the team is a techno-commercial professional resulting in great asset, are able to lead whole GSCM process and manage entire Operation’ s stakeholder relationship. Well versed with tools to execute and experienced with different cultures across globe. Having been worked in the markets like Energy, Food Equipment, Printing, Airport transportation, Defence, Medical, Machine Building, Connectors, Aerospace, Agricultural Equipment etc. we are well equipped with the knowledge on diversity each market comes with and we customize our approach to meet and exceed customer requirements.</p>
     </div>
+    {/* <Outlet /> */}
     </div>
   )
 }
