@@ -8,9 +8,16 @@ function NavScrollExample() {
   console.log(param1)
   const highlight = {
     color : '#f37e00',
-    margin: '0 30px' 
+    margin: '0 30px',
+    fontWeight: '600',
+    fontSize:'1.5vw'
   }
-  const Gapsetting = { margin: '0 30px' }
+  const Gapsetting = { 
+    margin: '0 30px',
+    fontWeight: '600',
+    fontSize:'1.5vw',
+    color:'rgb(61,59,0)'
+   }
   return (
     <Navbar expand="lg" style={{padding:"0",margin:"0",backgroundColor:"#fff"}} sticky='top' >
       <Container fluid>

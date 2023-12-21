@@ -75,7 +75,14 @@
   background-color: #f0f0f0;
   color: #333;
 } */
-
+.welcome .srivelu{
+  font-weight: 800;
+   /* font-size: 3vw; */
+   color:rgb(0,67,3)
+}
+.center{
+  text-align: center;
+}
 /* Styles for laptops with a screen width of 768 pixels or more */
 @media only screen and (min-width: 768px) {
   /* Add your laptop-specific styles here */
@@ -88,15 +95,33 @@
   }
   .about-icons{
     font-size: 2vw;
-    /* font-weight:  ; */
-    /* color: red; */
   }
-  
+  .welcome .srivelu{
+    /* font-weight: 800; */
+     font-size: 3vw;
+     /* color:rgb(0,67,3) */
+  }
+  .welcome h2{
+    font-size: 2vw;
+  }
+
+  .welcome p{
+    background-color:#fff;
+    font-size: 1.5vw;
+    font-weight:500;
+    /* minWidth:"100px" */
+  }
 }
 
 /* Styles for mobile devices with a screen width of less than 768 pixels */
 @media only screen and (max-width: 767px) {
-
+  .welcome p{
+    background-color:#fff;
+    /* font-size: 1.5vw; */
+    font-weight:500;
+    font-size: 18px;
+    /* minWidth:"100px" */
+  }
 }
 
 
