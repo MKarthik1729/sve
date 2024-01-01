@@ -14,17 +14,17 @@ function Contact() {
           to be from the time zone with a time difference of 6+ hours to IST.</p>
       </div>
       <div className='contact' >
-      <div  style={{display:"flex",justifyContent:"center",alignItems:"center"}} >
+      <div  className='div-center' >
 
       <div>
         <h2>Contact us</h2>
      <p> Sri Velu Enterprises<br />
       Contact Person : Gnanavel S.(Proprietor)<br /><br />
-      N0.11/1,Chamundi Vihar, Lakshmipura Road, <br />
-      Abbigere, Chikkabanavara Post, Bengaluru 5600090, <br />
+      N0.11/1,Chamundi Vihar,<br /> Lakshmipura Road, <br />
+      Abbigere, Chikkabanavara Post, <br/>Bengaluru 5600090, <br />
       Karnataka, India<br /><br />
-      Mobile : +91 9980066665<br />
-      EMAIL ID : gnanavel@sriveluenterprises.com</p >
+      +91 9980066665<br />
+      gnanavel@sriveluenterprises.com</p >
         </div>
       </div>
       <div className='center'>

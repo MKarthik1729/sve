@@ -83,18 +83,46 @@
 .center{
   text-align: center;
 }
-/* Styles for laptops with a screen width of 768 pixels or more */
+
+.flex div img {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.flex div table tr td,.flex div table tr tH {
+color: #291c02;
+border:1px solid black;
+padding: 1vw;
+}
+
+
 @media only screen and (min-width: 768px) {
   .contact{
     padding: 4vh 0;
     display:flex;
-    /* text-align: center; */
     justify-content: center;
     gap: 3vw;
   }
-  /* Add your laptop-specific styles here */
+
+  .flex{
+    display: flex;
+    gap:2%;
+    padding: 1vw;
+  }
+  /* .flex div{
+    width: 30%;
+    content: inherit;
+    border:1px solid black;
+    overflow:auto;
+
+  } */
+
+
+  .quality{
+    display: flex;
+    gap: 3%;
+  }
   .con {
-    /* font-size: 16px; */
     display: flex;
   }
   .column{
@@ -105,9 +133,7 @@
     font-size: 2vw;
   }
   .welcome .srivelu{
-    /* font-weight: 800; */
      font-size: 3vw;
-     /* color:rgb(0,67,3) */
   }
   .welcome h2{
     font-size: 2vw;
@@ -117,9 +143,7 @@
   .welcome p{
     background-color:#fff;
     font-size: 1.5vw;
-    /* font-weight:500; */
     color: #431515;
-    /* minWidth:"100px" */
   }
 
 
@@ -128,22 +152,25 @@
   }
 }
 
-/* Styles for mobile devices with a screen width of less than 768 pixels */
 @media only screen and (max-width: 767px) {
   .welcome p{
     background-color:#fff;
-    /* font-size: 1.5vw; */
-    /* font-weight:500; */
     font-size: 18px;
-    /* minWidth:"100px" */
 
   }
-  /* .contact{
-    padding:15px 30px;
 
-  } */
 }
 
+.div-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.div-center div li{
+  font-size: x-large;
+}
 
 
 .centered-text {
@@ -162,10 +189,7 @@
   height: 80px;
   padding: 10px;
   background-color: white;
-  /* font-weight: 10; */
-  /* transform: scale(0.5);      */
   border-radius: 50%; /* Make it a circle */
-  /* border: 2px solid red; */
   color: red; /* Border color (red in this case) */
 }
 
@@ -185,3 +209,10 @@
   color: aliceblue;
 }
 
+/* .quality{
+
+  padding: 0 6%;
+} */
+.padding{
+  padding: 0 10%;
+}
