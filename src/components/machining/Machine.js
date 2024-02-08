@@ -1,8 +1,9 @@
 import React from 'react'
 import '../../App.css'
 function Machine({mach}) {
+    
   return (
-    <div>
+    <div className='control'>
         <img src={mach.img} />
         <h3>{mach.title}</h3>
         <div className='div-center'>

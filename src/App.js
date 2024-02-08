@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 import Subfooter from './components/machining/Subfooter';
 // import Material from './components/machining/Material';
 import Quality from './components/machining/Quality';
-// import Equipment from './components/machining/Equipment';
-import UnderConstructionPage from './components/UnderonstructionPage';
+import Equipment from './components/machining/Equipment';
+// import UnderConstructionPage from './components/UnderonstructionPage';
 import TitlebarImageList from './components/machining/TitlebarImageList';
 function App() {
   return (
@@ -28,8 +28,8 @@ function App() {
           <Route path='material'  element={<TitlebarImageList />} />
           {/* <Route path='quality'  element={<UnderConstructionPage />} /> */}
           <Route path='quality'  element={<Quality />} />
-          {/* <Route path='equipment'  element={<Equipment />} /> */}
-          <Route path='equipment'  element={<UnderConstructionPage />} />
+          <Route path='equipment'  element={<Equipment />} />
+          {/* <Route path='equipment'  element={<UnderConstructionPage />} /> */}
           <Route path="*" element={<NotFoundPage />} />
             </Route>
           <Route path='/our-team' element={<Ourteam />}/>

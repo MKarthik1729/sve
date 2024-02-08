@@ -1,6 +1,19 @@
 [
     {
-        "img": "https://succinnova.com/wp-content/uploads/2019/07/1-HAAS-VF2-include.png",
+        "img": "https://vartisengineering.com/wp-content/uploads/2019/06/vmc-machine.png",
+        "title": "VMC Machine",
+        "type": "VMC 4 Axis",
+        "make": "HAAS",
+        "quantity": "1",
+        "xmm": "762",
+        "xinch": "30",
+        "ymm": "406",
+        "yinch": "16",
+        "zmm": "508",
+        "zinch": "20"
+      },
+      {
+        "img": "https://static.machinetools.com/uploads/2695784/photo.jpg",
         "title": "CNC Vertical Machining Centre",
         "type": "VMC 4 Axis",
         "make": "HAAS",
@@ -13,8 +26,34 @@
         "zinch": "20"
       },
       {
-        "img": "https://succinnova.com/wp-content/uploads/2019/07/1-HAAS-VF2-include.png",
-        "title": "CNC Vertical Machining Centre",
+        "img": "https://3.imimg.com/data3/TA/DW/MY-3494818/cnc-machine-1000x1000.jpg",
+        "title": "Cnc Turning Machine Ycm",
+        "type": "VMC 4 Axis",
+        "make": "HAAS",
+        "quantity": "1",
+        "xmm": "762",
+        "xinch": "30",
+        "ymm": "406",
+        "yinch": "16",
+        "zmm": "508",
+        "zinch": "20"
+      },
+      {
+        "img": "https://5.imimg.com/data5/YR/TX/MY-1986056/lmw-cnc-lathe-used-500x500.png",
+        "title": "LMW CNC Turning Used Machine",
+        "type": "VMC 4 Axis",
+        "make": "HAAS",
+        "quantity": "1",
+        "xmm": "762",
+        "xinch": "30",
+        "ymm": "406",
+        "yinch": "16",
+        "zmm": "508",
+        "zinch": "20"
+      },
+      {
+        "img": "https://static.machinetools.com/uploads/2695784/photo.jpg",
+        "title": "LMW LL20T L5 CNC Lathes",
         "type": "VMC 4 Axis",
         "make": "HAAS",
         "quantity": "1",
