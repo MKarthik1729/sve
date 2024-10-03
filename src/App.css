@@ -63,7 +63,7 @@
 .common{
   background-color: aliceblue;
   padding: 20px;
-  width: 40vw;
+
   /* margin: 2vh 25vw; */
   /* height: 100vh; */
 }
@@ -166,6 +166,9 @@ padding: 1vw;
   }
   .mission{
     padding: 10vh 10vw;
+  }
+  .common{
+    width: 40vw;
   }
   .welcome p{
     background-color:#fff;
