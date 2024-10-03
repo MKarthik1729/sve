@@ -49,6 +49,11 @@
   background-image: url('https://www.sriveluenterprises.com/corevalue-bg.jpg');
 }
 
+.mission{
+  padding: 10vh 10vw;
+  font-size: larger;
+}
+
 .backgroundContainer {
   background-size: cover;
   background-position: center; /* Optional: Center the background image */
@@ -56,6 +61,19 @@
   width: 100vw; /* 100% of the viewport width */
   height: 500px; 
   /* Additional styles or adjustments as needed */
+}
+
+.common{
+  background-color: aliceblue;
+  padding: 20px;
+  width: 40vw;
+  /* margin: 2vh 25vw; */
+  /* height: 100vh; */
+}
+
+.common .srivelu{
+  font-weight: 700;
+  color: green;
 }
 
 /* App.css */
@@ -77,8 +95,9 @@
 } */
 .welcome .srivelu{
   font-weight: 800;
-   /* font-size: 3vw; */
+  /* background-color: aliceblue; */
    color:rgb(0,67,3)
+   /* color: aliceblue; */
 }
 .center{
   text-align: center;
