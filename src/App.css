@@ -49,10 +49,7 @@
   background-image: url('https://www.sriveluenterprises.com/corevalue-bg.jpg');
 }
 
-.mission{
-  padding: 10vh 10vw;
-  font-size: larger;
-}
+
 
 .backgroundContainer {
   background-size: cover;
@@ -167,7 +164,9 @@ padding: 1vw;
     font-size: 2vw;
     color: #431515;
   }
-
+  .mission{
+    padding: 10vh 10vw;
+  }
   .welcome p{
     background-color:#fff;
     font-size: 1.5vw;
@@ -178,6 +177,10 @@ padding: 1vw;
   .pad{
     padding:50px;
   }
+}
+.mission{
+
+  font-size: larger;
 }
 
 @media only screen and (max-width: 767px) {
