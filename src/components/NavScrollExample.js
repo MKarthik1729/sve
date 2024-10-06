@@ -34,6 +34,7 @@ function NavScrollExample() {
   <Nav.Link href="/" style={(param1==="/")?highlight:Gapsetting}>HOME</Nav.Link>
   <Nav.Link href="/about"  style={(param1==="/about")?highlight:Gapsetting}>ABOUT US</Nav.Link>
   <Nav.Link href="/machining" style={(param1==="/machining")?highlight:Gapsetting}>BUSINESS VERTICALS</Nav.Link>
+  <Nav.Link href="/gallery" style={(param1==="/gallery")?highlight:Gapsetting}>GALLERY</Nav.Link>
   <Nav.Link href="/contact-us" style={(param1==="/contact-us")?highlight:Gapsetting}>CONTACT US</Nav.Link>
 
 

@@ -14,6 +14,7 @@ import Quality from './components/machining/Quality';
 import Equipment from './components/machining/Equipment';
 // import UnderConstructionPage from './components/UnderonstructionPage';
 import TitlebarImageList from './components/machining/TitlebarImageList';
+import Gallery from './components/Gallery/Images'
 function App() {
   return (
 
@@ -34,6 +35,8 @@ function App() {
             </Route>
           <Route path='/our-team' element={<Ourteam />}/>
           <Route path='/contact-us' element={<Contact />}/>
+          <Route path='/gallery' element={<Gallery />}/>
+
           <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
