@@ -15,10 +15,10 @@ function Material() {
     })
 }
   
-  return (
+  return ( 
     <div style={{padding:"10px 6%"}}>
       <h2>Our products</h2>
-<ImageList sx={{ height: 600 }} cols={3} gap={10} >
+<ImageList cols={3} gap={10} >
   {itemData.map((item) => (
     <ImageListItem key={item.img}>
       <img

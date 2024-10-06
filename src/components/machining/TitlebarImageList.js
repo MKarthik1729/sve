@@ -18,8 +18,8 @@ export default function TitlebarImageList() {
 }
   
   return (<div style={{padding:"0 5%"}}>
-    <ImageList sx={{  height: 600 }} gap={20} cols={3}>
-      <ImageListItem key="Subheader" cols={3}>
+    <ImageList gap={20} cols={window.innerWidth>750?3:2}>
+      <ImageListItem key="Subheader" cols={window.innerWidth>750?3:2}>
         <ListSubheader style={{fontWeight:"1000",fontSize:"50px"}} component="div">Our products</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (

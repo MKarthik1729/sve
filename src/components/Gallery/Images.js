@@ -31,7 +31,7 @@ function Material() {
     </ImageListItem>
   ))}
 </ImageList> */}
-<ImageList variant="masonry" cols={window.innerWidth<750?2:3} gap={20}>
+<ImageList variant="masonry" cols={window.innerWidth<750?2:3} gap={5}>
   {itemData.map((item) => (
     <ImageListItem key={item.img}>
       <img
