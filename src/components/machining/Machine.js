@@ -4,7 +4,8 @@ function Machine({mach}) {
     
   return (
     <div className='control'>
-        <img src={mach.img} />
+        <img style={{width:"28vw"}}
+        src={mach.img} />
         <h3>{mach.title}</h3>
         <div className='div-center'>
             
