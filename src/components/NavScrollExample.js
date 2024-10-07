@@ -21,7 +21,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" style={{padding:"0 5%",margin:"0",backgroundColor:"#fff"}} sticky='top' >
       <Container fluid>
-        <Navbar.Brand href="/" style={{height:"80px",overflow:"hidden",margin:"0",padding:"0"}} ><Logo /></Navbar.Brand>
+        <Navbar.Brand href="/" style={{overflow:"hidden",margin:"0",padding:"0"}} ><Logo  /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
