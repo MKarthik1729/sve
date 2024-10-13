@@ -1,3 +1,31 @@
+.left h2{
+    color: rgb(243, 126, 0);
+    font-weight: 600;
+    padding-bottom: 10px;
+    /* font-size; */
+}
+@media only screen and (min-width: 768px) {
+
+.left{
+    margin-left: 55vw;
+    width: 40vw;
+}
+}
+
+.left{
+
+    background-color: rgba(0,250,250,0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 2vw;
+}
+.gap{
+    padding: 3vh;
+}
+
 .bo1{
     background-image: url('https://www.sriveluenterprises.com/cnc.jpg');
     width: 100vw;
@@ -6,17 +34,7 @@
     background-size: cover;
 }
 
-.left{
-    width: 40vw;
-    background-color: rgba(0,250,250,0.8);
-    margin-left: 50vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    padding: 2vw;
-}
+
 .bo2{
     background-image: url('https://www.sriveluenterprises.com/posts/images20.jpeg');
     width: 100vw;

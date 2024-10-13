@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import './image.css'
 function Image({img,title,desc}){
-return(<div className={img }>
+return(<div className={img + ' gap' }>
     <div className='left'>
 
     <h2>{title}</h2>
@@ -15,7 +15,9 @@ function IndividualIntervalsExample() {
   return (
     <Carousel>
       <Carousel.Item interval={500}>
-        <Image img="bo1" title="sri velu enterprises"/>
+        <Image img="bo1" title="Sri Velu Enterprises"
+        desc=" is a leading manufacturer of high-quality nuts, bolts, and fasteners, serving industries across construction, automotive, machinery, and more. With precision engineering and durable materials, we provide a wide range of standard and custom solutions designed to meet the toughest performance and safety standards. Our state-of-the-art manufacturing facility ensures reliable production, while our experienced team ensures timely delivery and customer satisfaction. Whether you need bulk orders or specialized designs, we are your trusted partner for fastening solutions that last."
+        />
       </Carousel.Item>
       <Carousel.Item interval={500}>
       <Image img="bo2" title="About" 
