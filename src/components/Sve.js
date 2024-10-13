@@ -1,10 +1,11 @@
 import React from 'react'
 import '../App.css'
+import IndividualIntervalsExample from './Landing/Images'
 // import FunFacts from './Home/FunFacts'
 function Sve() {
 
   const Welcome = {
-    padding: "1% 7%",
+    // padding: "1% 7%",
     backgroundImage: "url(" + process.env.PUBLIC_URL + '/cnc.jpg' + ")",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -23,7 +24,8 @@ function Sve() {
 
   return (
     <div>
-      <div style={Welcome}>
+      <IndividualIntervalsExample />
+      {/* <div style={Welcome}>
         <div className="column">
           <div className="common">
             <h2>Welcome to </h2>
@@ -33,11 +35,11 @@ function Sve() {
      
         </div>
 
-      </div>
-      <div className='mission centered-text' style={Mission}>
+      </div> */}
+      {/* <div className='mission centered-text' style={Mission}>
 
       <p>Our mission is to revolutionize the manufacturing landscape by providing unparalleled CNC solutions that prioritize precision, efficiency, and innovation. We are dedicated to empowering our clients with cutting-edge technology, streamlining their production processes, and fostering a culture of continuous improvement. Through a commitment to reliability and excellence, we aim to be the go-to partner for manufacturers seeking to optimize their operations and stay ahead in a rapidly evolving industry. Our mission extends beyond delivering state-of-the-art CNC tools; it encompasses a vision of transforming businesses, fostering growth, and contributing to the advancement of industries worldwide through the seamless integration of our expertise and advanced technologies</p>
-      </div>
+      </div> */}
       {/* <FunFacts /> */}
       <div className="b1 con center" style={{ padding: "10vh 10vw", backgroundSize: "cover" }}>
 

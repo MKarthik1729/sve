@@ -1,0 +1,33 @@
+.bo1{
+    background-image: url('https://www.sriveluenterprises.com/cnc.jpg');
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+    width: 40vw;
+    background-color: rgba(0,250,250,0.8);
+    margin-left: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 2vw;
+}
+.bo2{
+    background-image: url('https://www.sriveluenterprises.com/posts/images20.jpeg');
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bo3{
+    background-image: url('https://www.sriveluenterprises.com/machine.webp');
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
