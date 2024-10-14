@@ -10,7 +10,7 @@ def rename_images(directory_path, prefix='image_', extension='.jpeg'):
 
     # Rename each image file
     for i, old_name in enumerate(image_files, start=1):
-        new_name = f'material{x}.jpeg'
+        new_name = f'material{x}.jpeg' 
         old_path = os.path.join(directory_path, old_name)
         new_path = os.path.join(directory_path, new_name)
         os.rename(old_path, new_path)

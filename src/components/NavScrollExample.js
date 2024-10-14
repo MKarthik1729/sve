@@ -29,7 +29,7 @@ function NavScrollExample() {
             // style={{ maxHeight: '100px' }}
             style={{padding:"1% 1%"}}
             // navbarScroll
-          >
+          > 
             </Nav>
   <Nav.Link href="/" style={(param1==="/")?highlight:Gapsetting}>HOME</Nav.Link>
   <Nav.Link href="/about"  style={(param1==="/about")?highlight:Gapsetting}>ABOUT US</Nav.Link>

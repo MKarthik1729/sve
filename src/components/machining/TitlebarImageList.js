@@ -8,7 +8,7 @@ import InfoIcon from '@mui/icons-material/Info';
 
 export default function TitlebarImageList() {
   var itemData = [];
-  for (let i = 1; i <= 34; i++) {
+  for (let i = 1; i <= 30; i++) {
     itemData.push({
       id: i,
       img: `${process.env.PUBLIC_URL}/products/material${i}.jpeg`,

@@ -3,10 +3,10 @@ import React from 'react'
 
 
 function Material() {
-  var itemData = [
+  var itemData = [ 
     
   ];
-  for (let i = 1; i <= 34; i++) {
+  for (let i = 1; i <= 30; i++) { 
     itemData.push({
       id: i,
       img: `${process.env.PUBLIC_URL}/products/material${i}.jpeg`,
@@ -26,7 +26,7 @@ function Material() {
         src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
         alt={item.title}
         loading="lazy"
-      />
+      /> 
     </ImageListItem>
   ))}
 </ImageList>
