@@ -14,10 +14,7 @@ function Machine({mach}) {
                 <th>Type</th>
                 <td>{mach.type}</td>
             </tr>
-            <tr>
-                <th>Make</th>
-                <td>{mach.make}</td>
-            </tr>
+         
             <tr>
                 <th>quantity</th>
                 <td>{mach.quantity}</td>

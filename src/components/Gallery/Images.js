@@ -6,7 +6,7 @@ function Material() {
   var itemData = [
     
   ];
-  for (let i = 1; i <= 22; i++) {
+  for (let i = 1; i <= 21; i++) {
     itemData.push({
       id: i,
       img: `${process.env.PUBLIC_URL}/posts/images${i}.jpeg`,
